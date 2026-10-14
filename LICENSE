@@ -1,5 +1,5 @@
 MIT License — independently authored Market Endgames application code only.
-This notice does not license IEX data or third-party chart software; their terms are separate.
+This notice covers application code only. Each market-data package and the chart dependency retain separate terms.
 
 Copyright (c) 2026 Zheyu Liu
 
