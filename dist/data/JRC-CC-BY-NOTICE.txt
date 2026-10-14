@@ -1,0 +1,6 @@
+Georgios Fatouros (INNOV ACTS LTD) and Konstantina Tripodi (JRC Capital Management Consultancy & Research GmbH), High frequency (tick data) of historical FOREX prices, version 1.0.1, DOI 10.5281/zenodo.7411148, CC BY 4.0. Selected window/context and exact integer price encoding by Market Endgames; fictional accounts/execution added. No author endorsement.
+Dataset: https://zenodo.org/records/7411148
+Original file version: https://zenodo.org/records/7411078
+License: https://creativecommons.org/licenses/by/4.0/
+Author publication index: https://innov-acts.com/publications/
+Changes and residual limits are stated in the numerical package and player report. No licence for other providers, files or executable broker quotes is inferred.

@@ -1,0 +1,122 @@
+{
+  "source": "European Central Bank daily euro foreign-exchange reference rates",
+  "sourceUrl": "https://data-api.ecb.europa.eu/service/data/EXR/D.CHF.EUR.SP00.A",
+  "sourceSha256": "dfc29830d1afd56e479fb996fc2711aad6a94e8c69c84bdf26f0bc51c26e2cf9",
+  "marketDataKind": "reference",
+  "frequency": "daily",
+  "timestampSemantics": "observation-date coordinate; not publication or quote-arrival time",
+  "schema": [
+    "dateCoordinateMs",
+    "referencePriceTicks",
+    "normalizedId",
+    "unusedVolume",
+    "observationDate",
+    "originalReferenceDecimal"
+  ],
+  "rows": [
+    [
+      1421020800000,
+      1201000,
+      1,
+      null,
+      "2015-01-12",
+      "1.201"
+    ],
+    [
+      1421107200000,
+      1201000,
+      2,
+      null,
+      "2015-01-13",
+      "1.201"
+    ],
+    [
+      1421193600000,
+      1201000,
+      3,
+      null,
+      "2015-01-14",
+      "1.201"
+    ],
+    [
+      1421280000000,
+      1028000,
+      4,
+      null,
+      "2015-01-15",
+      "1.028"
+    ],
+    [
+      1421366400000,
+      1012800,
+      5,
+      null,
+      "2015-01-16",
+      "1.0128"
+    ],
+    [
+      1421625600000,
+      1012000,
+      6,
+      null,
+      "2015-01-19",
+      "1.012"
+    ],
+    [
+      1421712000000,
+      1008700,
+      7,
+      null,
+      "2015-01-20",
+      "1.0087"
+    ],
+    [
+      1421798400000,
+      999700,
+      8,
+      null,
+      "2015-01-21",
+      "0.9997"
+    ],
+    [
+      1421884800000,
+      994300,
+      9,
+      null,
+      "2015-01-22",
+      "0.9943"
+    ],
+    [
+      1421971200000,
+      981600,
+      10,
+      null,
+      "2015-01-23",
+      "0.9816"
+    ]
+  ],
+  "instrument": {
+    "symbol": "EUR/CHF",
+    "base": "EUR",
+    "quote": "CHF",
+    "name": "EUR holdings / CHF",
+    "venue": "ECB reference",
+    "priceScale": 1000000,
+    "quantityScale": 1,
+    "cashScale": 100
+  },
+  "rights": {
+    "source": "ECB",
+    "terms": "https://www.ecb.europa.eu/services/using-our-site/disclaimer/html/index.en.html",
+    "attribution": "Source: European Central Bank. Selected reference rates; date encoding and any reciprocal conversion are our modifications. No ECB endorsement."
+  },
+  "transformation": "Original source CHF per EUR; exact scale conversion to 1e6.",
+  "sampling": "One actual source value per observation date; missing dates remain absent. No intervening prices, bid/ask quotes or trade volume are reconstructed.",
+  "limitations": [
+    "Reference rates are informational, not transaction prices.",
+    "Historical publication times are not reconstructed.",
+    "No spread, financing, interest or currency-market liquidity is modeled."
+  ],
+  "normalizedRowsSha256": "46f2e1928831c05bba2bbc93f32ede8bf09572913405ef5168a83e016fffa732",
+  "sourceRequestUrl": "https://data-api.ecb.europa.eu/service/data/EXR/D.CHF.EUR.SP00.A?startPeriod=2015-01-05&endPeriod=2015-01-23&format=csvdata"
+}

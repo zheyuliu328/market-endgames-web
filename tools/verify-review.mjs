@@ -1,0 +1,15 @@
+import assert from 'node:assert/strict';
+import {makeAccount,submit,step,replay} from '../dist/core/engine.mjs';
+import {revisionChanges,compareAccounts,decisionStatus} from '../dist/core/review.mjs';
+const rows=[[0,10000,1,'100'],[1000,12000,2,'100'],[2000,10000,3,'100'],[3000,9000,4,'100'],[4000,8000,5,'100']];
+const rules={initialUnits:10000,initialEquity:100000,targetEquity:95000,targetUnits:0,feeBps:0,slippageBps:0,participationBps:null,maxLeverage:1};
+const a=makeAccount(rows,rules);submit(a,{side:'sell',units:5000,type:'market'});step(a,rows);submit(a,{side:'buy',units:5000,type:'market'});step(a,rows);submit(a,{side:'sell',units:10000,type:'market'});while(!a.done)step(a,rows);
+const saved=JSON.stringify(a),same=replay(rows,a.orders,{},rules);assert.deepEqual(same.ledger,a.ledger);assert.deepEqual(same.curve,a.curve);
+const b=replay(rows,a.orders,{1:0},rules),c=compareAccounts(a,b);assert.equal(c.original.passed,true);assert.equal(c.revised.passed,false);assert.equal(c.revised.equity,90000);assert.equal(c.equityDelta,c.cashDelta+c.positionDelta);assert.equal(c.affected.find(x=>x.original.id===2).revised.status,'rejected');assert.equal(decisionStatus(b.orders[0],b),'Skipped in revision');
+const d=replay(rows,a.orders,{1:0,3:5000},rules);assert.equal(d.cash,45000);assert.equal(compareAccounts(a,d).revised.equity,85000);assert.equal(JSON.stringify(a),saved);
+assert.deepEqual(revisionChanges(a,{'1':'0','2':'5','3':'5'}),{1:0,3:5000});
+for(const invalid of ['', '-1','0.0001','NaN','1000000'])assert.throws(()=>revisionChanges(a,{'1':invalid}),/Order #1/);
+assert.throws(()=>revisionChanges(a,{'1':'0','2':'0','3':'0'}),/Only two/);
+assert.match(decisionStatus({time:5000,units:1,status:'cancelled'},a),/Not reached/);
+assert.equal(decisionStatus({time:5000,units:1,status:'pending'}, {...a,done:false}),'pending');
+console.log('PASS: identical replay, one/two edits, cascade, exact cash bridge, stale-input validation, unknown future decisions and original immutability.');

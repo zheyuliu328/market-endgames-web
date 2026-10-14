@@ -1,0 +1,165 @@
+{
+  "source": "David M Webb: ccass.quotes numerical compilation, selected HSBC daily closing prices",
+  "sourceUrl": "https://webbrepo.substack.com/p/welcome-to-the-webb-site-repository",
+  "sourceSha256": "7041fdb5f465f070c6694af4d7a90aace931433151f56e66bf33f5da8a3e081b",
+  "marketDataKind": "reference",
+  "frequency": "daily",
+  "timestampSemantics": "observation-date coordinate; not publication or quote-arrival time",
+  "schema": [
+    "dateCoordinateMs",
+    "referencePriceTicks",
+    "normalizedId",
+    "unusedVolume",
+    "observationDate",
+    "originalReferenceDecimal"
+  ],
+  "rows": [
+    [
+      1224460800000,
+      10700,
+      1,
+      null,
+      "2008-10-20",
+      "107"
+    ],
+    [
+      1224547200000,
+      10690,
+      2,
+      null,
+      "2008-10-21",
+      "106.9"
+    ],
+    [
+      1224633600000,
+      10380,
+      3,
+      null,
+      "2008-10-22",
+      "103.8"
+    ],
+    [
+      1224720000000,
+      10060,
+      4,
+      null,
+      "2008-10-23",
+      "100.6"
+    ],
+    [
+      1224806400000,
+      8800,
+      5,
+      null,
+      "2008-10-24",
+      "88"
+    ],
+    [
+      1225065600000,
+      7500,
+      6,
+      null,
+      "2008-10-27",
+      "75"
+    ],
+    [
+      1225152000000,
+      9000,
+      7,
+      null,
+      "2008-10-28",
+      "90"
+    ],
+    [
+      1225238400000,
+      8615,
+      8,
+      null,
+      "2008-10-29",
+      "86.15"
+    ],
+    [
+      1225324800000,
+      9540,
+      9,
+      null,
+      "2008-10-30",
+      "95.4"
+    ],
+    [
+      1225411200000,
+      9200,
+      10,
+      null,
+      "2008-10-31",
+      "92"
+    ]
+  ],
+  "instrument": {
+    "symbol": "0005.HK",
+    "base": "HSBC shares",
+    "quote": "HKD",
+    "name": "HSBC Holdings",
+    "venue": "Webb-site daily compilation",
+    "priceScale": 100,
+    "quantityScale": 1,
+    "cashScale": 100
+  },
+  "rights": {
+    "source": "Webb-site compilation",
+    "terms": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Source: David M Webb MBE, Webb-site repository, ccass.quotes numerical compilation, CC BY. Selected, date-encoded and scaled for an independent fictional game. Original copyright notice retained in data/WEBB-NOTICE.txt. No HKEX or author endorsement."
+  },
+  "transformation": "Original compiled daily HKD close per HSBC share; exact 1e2 scale. Only close values selected; bid/ask, volume and original report layout are not republished.",
+  "sampling": "One actual source value per observation date; missing dates remain absent. No intervening prices, bid/ask quotes or trade volume are reconstructed.",
+  "limitations": [
+    "Permission is from the author for the numerical compilation; this is not a claim that HKEX report files are openly licensed.",
+    "No source opening prices or intraday timestamps are available; next-observation closing-price fills are hypothetical.",
+    "400-share order lots are supported by official 1999 and 2009 cash-share evidence and 2008 contract evidence; applying them to October2008 is a historical inference.",
+    "Dividends, corporate actions, commissions, stamp duty and exchange queues are omitted. Selected source window has no detected previous-close adjustment bridge."
+  ],
+  "normalizedRowsSha256": "bbdffe056e2d79472bb7cf00dbbb2a10d4799e113b8195408b75f6a562fa49e3",
+  "sourceRequestUrl": "https://drive.google.com/file/d/1Kj8U5ToOH8AOyMf00oYAZr-rZNpjedmj/view",
+  "sourceRecords": [
+    {
+      "date": "2008-10-20",
+      "sourceTupleSha256": "13422de439af2636d79a8e9e27ba19ee756f06e06a0d9632a04210877d52005c"
+    },
+    {
+      "date": "2008-10-21",
+      "sourceTupleSha256": "d9767178c0050f27f0b43dde096e10d7b4ed5c0829cd777e876f9346219fb222"
+    },
+    {
+      "date": "2008-10-22",
+      "sourceTupleSha256": "8fba8abb18f42974043575146e15b70eaada2a28b088e7c7815a524a85ad898d"
+    },
+    {
+      "date": "2008-10-23",
+      "sourceTupleSha256": "1cf1f16747befe6c6b96595168dd9df17fb6ad9ebcffbc26eede231d16defe37"
+    },
+    {
+      "date": "2008-10-24",
+      "sourceTupleSha256": "af9a816bf7b521478233f05fd9ed7d51d7d37ad27e550c21b20aff49b8721e58"
+    },
+    {
+      "date": "2008-10-27",
+      "sourceTupleSha256": "25f04f05816cba96b2cc51bef717c65bf6d098a1b058b8a9bce7d44bcbac18f7"
+    },
+    {
+      "date": "2008-10-28",
+      "sourceTupleSha256": "24da41744b41cac34cfa78afe6f2e62d4a6afdfea008716e623d4af55fe54732"
+    },
+    {
+      "date": "2008-10-29",
+      "sourceTupleSha256": "02f6c61c1148ad2f9e5cc6ab9954e4b19893c1a6cdf8faefbbfad80bbd81576d"
+    },
+    {
+      "date": "2008-10-30",
+      "sourceTupleSha256": "9441c365335d168a01981c7ca0fab4182ce959fb281e74f90fb4b1f0e183254a"
+    },
+    {
+      "date": "2008-10-31",
+      "sourceTupleSha256": "af697695deaf9cfb122e95909088729dd3cec58b8439d4a9f2db887e5e94f947"
+    }
+  ]
+}

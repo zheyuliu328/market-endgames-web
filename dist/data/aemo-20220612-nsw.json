@@ -1,0 +1,974 @@
+{
+  "marketDataKind": "clearing",
+  "frequency": "5-minute",
+  "instrument": {
+    "symbol": "NSW1 electricity",
+    "base": "MWh",
+    "quote": "AUD",
+    "venue": "AEMO NEM",
+    "name": "NSW electricity cash-settled exposure",
+    "priceScale": 100000,
+    "quantityScale": 1,
+    "cashScale": 100
+  },
+  "schema": [
+    "timestampMs",
+    "clearingPriceTicks",
+    "observationId",
+    "unusedVolume",
+    "intervalEndAest",
+    "originalRRPLiteral"
+  ],
+  "rows": [
+    [
+      1655017200000,
+      61090000,
+      1,
+      null,
+      "2022/06/12 17:00:00",
+      "610.9"
+    ],
+    [
+      1655017500000,
+      61090000,
+      2,
+      null,
+      "2022/06/12 17:05:00",
+      "610.9"
+    ],
+    [
+      1655017800000,
+      61090000,
+      3,
+      null,
+      "2022/06/12 17:10:00",
+      "610.9"
+    ],
+    [
+      1655018100000,
+      61090000,
+      4,
+      null,
+      "2022/06/12 17:15:00",
+      "610.9"
+    ],
+    [
+      1655018400000,
+      61090000,
+      5,
+      null,
+      "2022/06/12 17:20:00",
+      "610.9"
+    ],
+    [
+      1655018700000,
+      61090000,
+      6,
+      null,
+      "2022/06/12 17:25:00",
+      "610.9"
+    ],
+    [
+      1655019000000,
+      61090000,
+      7,
+      null,
+      "2022/06/12 17:30:00",
+      "610.9"
+    ],
+    [
+      1655019300000,
+      61090000,
+      8,
+      null,
+      "2022/06/12 17:35:00",
+      "610.9"
+    ],
+    [
+      1655019600000,
+      61090000,
+      9,
+      null,
+      "2022/06/12 17:40:00",
+      "610.9"
+    ],
+    [
+      1655019900000,
+      61090000,
+      10,
+      null,
+      "2022/06/12 17:45:00",
+      "610.9"
+    ],
+    [
+      1655020200000,
+      61090000,
+      11,
+      null,
+      "2022/06/12 17:50:00",
+      "610.9"
+    ],
+    [
+      1655020500000,
+      61090000,
+      12,
+      null,
+      "2022/06/12 17:55:00",
+      "610.9"
+    ],
+    [
+      1655020800000,
+      61090000,
+      13,
+      null,
+      "2022/06/12 18:00:00",
+      "610.9"
+    ],
+    [
+      1655021100000,
+      61090000,
+      14,
+      null,
+      "2022/06/12 18:05:00",
+      "610.9"
+    ],
+    [
+      1655021400000,
+      61090000,
+      15,
+      null,
+      "2022/06/12 18:10:00",
+      "610.9"
+    ],
+    [
+      1655021700000,
+      61090000,
+      16,
+      null,
+      "2022/06/12 18:15:00",
+      "610.9"
+    ],
+    [
+      1655022000000,
+      61090000,
+      17,
+      null,
+      "2022/06/12 18:20:00",
+      "610.9"
+    ],
+    [
+      1655022300000,
+      61090000,
+      18,
+      null,
+      "2022/06/12 18:25:00",
+      "610.9"
+    ],
+    [
+      1655022600000,
+      61090000,
+      19,
+      null,
+      "2022/06/12 18:30:00",
+      "610.9"
+    ],
+    [
+      1655022900000,
+      61090000,
+      20,
+      null,
+      "2022/06/12 18:35:00",
+      "610.9"
+    ],
+    [
+      1655023200000,
+      61090000,
+      21,
+      null,
+      "2022/06/12 18:40:00",
+      "610.9"
+    ],
+    [
+      1655023500000,
+      61090000,
+      22,
+      null,
+      "2022/06/12 18:45:00",
+      "610.9"
+    ],
+    [
+      1655023800000,
+      61090000,
+      23,
+      null,
+      "2022/06/12 18:50:00",
+      "610.9"
+    ],
+    [
+      1655024100000,
+      20000000,
+      24,
+      null,
+      "2022/06/12 18:55:00",
+      "200"
+    ],
+    [
+      1655024400000,
+      20000000,
+      25,
+      null,
+      "2022/06/12 19:00:00",
+      "200"
+    ],
+    [
+      1655024700000,
+      21185737,
+      26,
+      null,
+      "2022/06/12 19:05:00",
+      "211.85737"
+    ],
+    [
+      1655025000000,
+      20572636,
+      27,
+      null,
+      "2022/06/12 19:10:00",
+      "205.72636"
+    ],
+    [
+      1655025300000,
+      21973321,
+      28,
+      null,
+      "2022/06/12 19:15:00",
+      "219.73321"
+    ],
+    [
+      1655025600000,
+      128001000,
+      29,
+      null,
+      "2022/06/12 19:20:00",
+      "1280.01"
+    ],
+    [
+      1655025900000,
+      128001000,
+      30,
+      null,
+      "2022/06/12 19:25:00",
+      "1280.01"
+    ],
+    [
+      1655026200000,
+      102001000,
+      31,
+      null,
+      "2022/06/12 19:30:00",
+      "1020.01"
+    ],
+    [
+      1655026500000,
+      102002000,
+      32,
+      null,
+      "2022/06/12 19:35:00",
+      "1020.02"
+    ],
+    [
+      1655026800000,
+      22820938,
+      33,
+      null,
+      "2022/06/12 19:40:00",
+      "228.20938"
+    ],
+    [
+      1655027100000,
+      23635033,
+      34,
+      null,
+      "2022/06/12 19:45:00",
+      "236.35033"
+    ],
+    [
+      1655027400000,
+      24075700,
+      35,
+      null,
+      "2022/06/12 19:50:00",
+      "240.757"
+    ],
+    [
+      1655027700000,
+      23562915,
+      36,
+      null,
+      "2022/06/12 19:55:00",
+      "235.62915"
+    ],
+    [
+      1655028000000,
+      22691469,
+      37,
+      null,
+      "2022/06/12 20:00:00",
+      "226.91469"
+    ]
+  ],
+  "marketRecords": [
+    {
+      "id": 1,
+      "sourceRowLine": 16858,
+      "intervalEndAest": "2022/06/12 17:00:00",
+      "lastChangedAest": "2022/06/12 16:55:05",
+      "apcFlag": 0,
+      "intervention": 0,
+      "priceStatus": "FIRM",
+      "sourceKey": {
+        "DISPATCHINTERVAL": "20220612156",
+        "INTERVENTION": "0",
+        "REGIONID": "NSW1",
+        "RUNNO": "1",
+        "SETTLEMENTDATE": "2022/06/12 17:00:00"
+      },
+      "ropLiteral": "610.9"
+    },
+    {
+      "id": 2,
+      "sourceRowLine": 16863,
+      "intervalEndAest": "2022/06/12 17:05:00",
+      "lastChangedAest": "2022/06/12 17:00:04",
+      "apcFlag": 0,
+      "intervention": 0,
+      "priceStatus": "FIRM",
+      "sourceKey": {
+        "DISPATCHINTERVAL": "20220612157",
+        "INTERVENTION": "0",
+        "REGIONID": "NSW1",
+        "RUNNO": "1",
+        "SETTLEMENTDATE": "2022/06/12 17:05:00"
+      },
+      "ropLiteral": "610.9"
+    },
+    {
+      "id": 3,
+      "sourceRowLine": 16868,
+      "intervalEndAest": "2022/06/12 17:10:00",
+      "lastChangedAest": "2022/06/12 17:05:04",
+      "apcFlag": 0,
+      "intervention": 0,
+      "priceStatus": "FIRM",
+      "sourceKey": {
+        "DISPATCHINTERVAL": "20220612158",
+        "INTERVENTION": "0",
+        "REGIONID": "NSW1",
+        "RUNNO": "1",
+        "SETTLEMENTDATE": "2022/06/12 17:10:00"
+      },
+      "ropLiteral": "610.9"
+    },
+    {
+      "id": 4,
+      "sourceRowLine": 16873,
+      "intervalEndAest": "2022/06/12 17:15:00",
+      "lastChangedAest": "2022/06/12 17:10:03",
+      "apcFlag": 0,
+      "intervention": 0,
+      "priceStatus": "FIRM",
+      "sourceKey": {
+        "DISPATCHINTERVAL": "20220612159",
+        "INTERVENTION": "0",
+        "REGIONID": "NSW1",
+        "RUNNO": "1",
+        "SETTLEMENTDATE": "2022/06/12 17:15:00"
+      },
+      "ropLiteral": "610.9"
+    },
+    {
+      "id": 5,
+      "sourceRowLine": 16878,
+      "intervalEndAest": "2022/06/12 17:20:00",
+      "lastChangedAest": "2022/06/12 17:15:04",
+      "apcFlag": 0,
+      "intervention": 0,
+      "priceStatus": "FIRM",
+      "sourceKey": {
+        "DISPATCHINTERVAL": "20220612160",
+        "INTERVENTION": "0",
+        "REGIONID": "NSW1",
+        "RUNNO": "1",
+        "SETTLEMENTDATE": "2022/06/12 17:20:00"
+      },
+      "ropLiteral": "610.9"
+    },
+    {
+      "id": 6,
+      "sourceRowLine": 16883,
+      "intervalEndAest": "2022/06/12 17:25:00",
+      "lastChangedAest": "2022/06/12 17:20:03",
+      "apcFlag": 0,
+      "intervention": 0,
+      "priceStatus": "FIRM",
+      "sourceKey": {
+        "DISPATCHINTERVAL": "20220612161",
+        "INTERVENTION": "0",
+        "REGIONID": "NSW1",
+        "RUNNO": "1",
+        "SETTLEMENTDATE": "2022/06/12 17:25:00"
+      },
+      "ropLiteral": "610.9"
+    },
+    {
+      "id": 7,
+      "sourceRowLine": 16888,
+      "intervalEndAest": "2022/06/12 17:30:00",
+      "lastChangedAest": "2022/06/12 17:25:03",
+      "apcFlag": 0,
+      "intervention": 0,
+      "priceStatus": "FIRM",
+      "sourceKey": {
+        "DISPATCHINTERVAL": "20220612162",
+        "INTERVENTION": "0",
+        "REGIONID": "NSW1",
+        "RUNNO": "1",
+        "SETTLEMENTDATE": "2022/06/12 17:30:00"
+      },
+      "ropLiteral": "610.9"
+    },
+    {
+      "id": 8,
+      "sourceRowLine": 16893,
+      "intervalEndAest": "2022/06/12 17:35:00",
+      "lastChangedAest": "2022/06/12 17:30:04",
+      "apcFlag": 0,
+      "intervention": 0,
+      "priceStatus": "FIRM",
+      "sourceKey": {
+        "DISPATCHINTERVAL": "20220612163",
+        "INTERVENTION": "0",
+        "REGIONID": "NSW1",
+        "RUNNO": "1",
+        "SETTLEMENTDATE": "2022/06/12 17:35:00"
+      },
+      "ropLiteral": "610.9"
+    },
+    {
+      "id": 9,
+      "sourceRowLine": 16898,
+      "intervalEndAest": "2022/06/12 17:40:00",
+      "lastChangedAest": "2022/06/12 17:35:05",
+      "apcFlag": 0,
+      "intervention": 0,
+      "priceStatus": "FIRM",
+      "sourceKey": {
+        "DISPATCHINTERVAL": "20220612164",
+        "INTERVENTION": "0",
+        "REGIONID": "NSW1",
+        "RUNNO": "1",
+        "SETTLEMENTDATE": "2022/06/12 17:40:00"
+      },
+      "ropLiteral": "610.9"
+    },
+    {
+      "id": 10,
+      "sourceRowLine": 16903,
+      "intervalEndAest": "2022/06/12 17:45:00",
+      "lastChangedAest": "2022/06/12 17:40:04",
+      "apcFlag": 0,
+      "intervention": 0,
+      "priceStatus": "FIRM",
+      "sourceKey": {
+        "DISPATCHINTERVAL": "20220612165",
+        "INTERVENTION": "0",
+        "REGIONID": "NSW1",
+        "RUNNO": "1",
+        "SETTLEMENTDATE": "2022/06/12 17:45:00"
+      },
+      "ropLiteral": "610.9"
+    },
+    {
+      "id": 11,
+      "sourceRowLine": 16908,
+      "intervalEndAest": "2022/06/12 17:50:00",
+      "lastChangedAest": "2022/06/12 17:45:05",
+      "apcFlag": 0,
+      "intervention": 0,
+      "priceStatus": "FIRM",
+      "sourceKey": {
+        "DISPATCHINTERVAL": "20220612166",
+        "INTERVENTION": "0",
+        "REGIONID": "NSW1",
+        "RUNNO": "1",
+        "SETTLEMENTDATE": "2022/06/12 17:50:00"
+      },
+      "ropLiteral": "610.9"
+    },
+    {
+      "id": 12,
+      "sourceRowLine": 16913,
+      "intervalEndAest": "2022/06/12 17:55:00",
+      "lastChangedAest": "2022/06/12 17:50:04",
+      "apcFlag": 0,
+      "intervention": 0,
+      "priceStatus": "FIRM",
+      "sourceKey": {
+        "DISPATCHINTERVAL": "20220612167",
+        "INTERVENTION": "0",
+        "REGIONID": "NSW1",
+        "RUNNO": "1",
+        "SETTLEMENTDATE": "2022/06/12 17:55:00"
+      },
+      "ropLiteral": "610.9"
+    },
+    {
+      "id": 13,
+      "sourceRowLine": 16918,
+      "intervalEndAest": "2022/06/12 18:00:00",
+      "lastChangedAest": "2022/06/12 17:55:03",
+      "apcFlag": 0,
+      "intervention": 0,
+      "priceStatus": "FIRM",
+      "sourceKey": {
+        "DISPATCHINTERVAL": "20220612168",
+        "INTERVENTION": "0",
+        "REGIONID": "NSW1",
+        "RUNNO": "1",
+        "SETTLEMENTDATE": "2022/06/12 18:00:00"
+      },
+      "ropLiteral": "610.9"
+    },
+    {
+      "id": 14,
+      "sourceRowLine": 16923,
+      "intervalEndAest": "2022/06/12 18:05:00",
+      "lastChangedAest": "2022/06/12 18:00:04",
+      "apcFlag": 0,
+      "intervention": 0,
+      "priceStatus": "FIRM",
+      "sourceKey": {
+        "DISPATCHINTERVAL": "20220612169",
+        "INTERVENTION": "0",
+        "REGIONID": "NSW1",
+        "RUNNO": "1",
+        "SETTLEMENTDATE": "2022/06/12 18:05:00"
+      },
+      "ropLiteral": "610.9"
+    },
+    {
+      "id": 15,
+      "sourceRowLine": 16928,
+      "intervalEndAest": "2022/06/12 18:10:00",
+      "lastChangedAest": "2022/06/12 18:05:03",
+      "apcFlag": 0,
+      "intervention": 0,
+      "priceStatus": "FIRM",
+      "sourceKey": {
+        "DISPATCHINTERVAL": "20220612170",
+        "INTERVENTION": "0",
+        "REGIONID": "NSW1",
+        "RUNNO": "1",
+        "SETTLEMENTDATE": "2022/06/12 18:10:00"
+      },
+      "ropLiteral": "610.9"
+    },
+    {
+      "id": 16,
+      "sourceRowLine": 16933,
+      "intervalEndAest": "2022/06/12 18:15:00",
+      "lastChangedAest": "2022/06/12 18:10:03",
+      "apcFlag": 0,
+      "intervention": 0,
+      "priceStatus": "FIRM",
+      "sourceKey": {
+        "DISPATCHINTERVAL": "20220612171",
+        "INTERVENTION": "0",
+        "REGIONID": "NSW1",
+        "RUNNO": "1",
+        "SETTLEMENTDATE": "2022/06/12 18:15:00"
+      },
+      "ropLiteral": "610.9"
+    },
+    {
+      "id": 17,
+      "sourceRowLine": 16938,
+      "intervalEndAest": "2022/06/12 18:20:00",
+      "lastChangedAest": "2022/06/12 18:15:03",
+      "apcFlag": 0,
+      "intervention": 0,
+      "priceStatus": "FIRM",
+      "sourceKey": {
+        "DISPATCHINTERVAL": "20220612172",
+        "INTERVENTION": "0",
+        "REGIONID": "NSW1",
+        "RUNNO": "1",
+        "SETTLEMENTDATE": "2022/06/12 18:20:00"
+      },
+      "ropLiteral": "610.9"
+    },
+    {
+      "id": 18,
+      "sourceRowLine": 16943,
+      "intervalEndAest": "2022/06/12 18:25:00",
+      "lastChangedAest": "2022/06/12 18:20:03",
+      "apcFlag": 0,
+      "intervention": 0,
+      "priceStatus": "FIRM",
+      "sourceKey": {
+        "DISPATCHINTERVAL": "20220612173",
+        "INTERVENTION": "0",
+        "REGIONID": "NSW1",
+        "RUNNO": "1",
+        "SETTLEMENTDATE": "2022/06/12 18:25:00"
+      },
+      "ropLiteral": "610.9"
+    },
+    {
+      "id": 19,
+      "sourceRowLine": 16948,
+      "intervalEndAest": "2022/06/12 18:30:00",
+      "lastChangedAest": "2022/06/12 18:25:03",
+      "apcFlag": 0,
+      "intervention": 0,
+      "priceStatus": "FIRM",
+      "sourceKey": {
+        "DISPATCHINTERVAL": "20220612174",
+        "INTERVENTION": "0",
+        "REGIONID": "NSW1",
+        "RUNNO": "1",
+        "SETTLEMENTDATE": "2022/06/12 18:30:00"
+      },
+      "ropLiteral": "610.9"
+    },
+    {
+      "id": 20,
+      "sourceRowLine": 16953,
+      "intervalEndAest": "2022/06/12 18:35:00",
+      "lastChangedAest": "2022/06/12 18:30:03",
+      "apcFlag": 0,
+      "intervention": 0,
+      "priceStatus": "FIRM",
+      "sourceKey": {
+        "DISPATCHINTERVAL": "20220612175",
+        "INTERVENTION": "0",
+        "REGIONID": "NSW1",
+        "RUNNO": "1",
+        "SETTLEMENTDATE": "2022/06/12 18:35:00"
+      },
+      "ropLiteral": "610.9"
+    },
+    {
+      "id": 21,
+      "sourceRowLine": 16958,
+      "intervalEndAest": "2022/06/12 18:40:00",
+      "lastChangedAest": "2022/06/12 18:35:03",
+      "apcFlag": 0,
+      "intervention": 0,
+      "priceStatus": "FIRM",
+      "sourceKey": {
+        "DISPATCHINTERVAL": "20220612176",
+        "INTERVENTION": "0",
+        "REGIONID": "NSW1",
+        "RUNNO": "1",
+        "SETTLEMENTDATE": "2022/06/12 18:40:00"
+      },
+      "ropLiteral": "610.9"
+    },
+    {
+      "id": 22,
+      "sourceRowLine": 16963,
+      "intervalEndAest": "2022/06/12 18:45:00",
+      "lastChangedAest": "2022/06/12 18:40:03",
+      "apcFlag": 0,
+      "intervention": 0,
+      "priceStatus": "FIRM",
+      "sourceKey": {
+        "DISPATCHINTERVAL": "20220612177",
+        "INTERVENTION": "0",
+        "REGIONID": "NSW1",
+        "RUNNO": "1",
+        "SETTLEMENTDATE": "2022/06/12 18:45:00"
+      },
+      "ropLiteral": "610.9"
+    },
+    {
+      "id": 23,
+      "sourceRowLine": 16968,
+      "intervalEndAest": "2022/06/12 18:50:00",
+      "lastChangedAest": "2022/06/12 18:45:03",
+      "apcFlag": 0,
+      "intervention": 0,
+      "priceStatus": "FIRM",
+      "sourceKey": {
+        "DISPATCHINTERVAL": "20220612178",
+        "INTERVENTION": "0",
+        "REGIONID": "NSW1",
+        "RUNNO": "1",
+        "SETTLEMENTDATE": "2022/06/12 18:50:00"
+      },
+      "ropLiteral": "610.9"
+    },
+    {
+      "id": 24,
+      "sourceRowLine": 16973,
+      "intervalEndAest": "2022/06/12 18:55:00",
+      "lastChangedAest": "2022/06/12 18:50:03",
+      "apcFlag": 16,
+      "intervention": 0,
+      "priceStatus": "FIRM",
+      "sourceKey": {
+        "DISPATCHINTERVAL": "20220612179",
+        "INTERVENTION": "0",
+        "REGIONID": "NSW1",
+        "RUNNO": "1",
+        "SETTLEMENTDATE": "2022/06/12 18:55:00"
+      },
+      "ropLiteral": "610.9"
+    },
+    {
+      "id": 25,
+      "sourceRowLine": 16978,
+      "intervalEndAest": "2022/06/12 19:00:00",
+      "lastChangedAest": "2022/06/12 18:55:03",
+      "apcFlag": 16,
+      "intervention": 0,
+      "priceStatus": "FIRM",
+      "sourceKey": {
+        "DISPATCHINTERVAL": "20220612180",
+        "INTERVENTION": "0",
+        "REGIONID": "NSW1",
+        "RUNNO": "1",
+        "SETTLEMENTDATE": "2022/06/12 19:00:00"
+      },
+      "ropLiteral": "610.9"
+    },
+    {
+      "id": 26,
+      "sourceRowLine": 16983,
+      "intervalEndAest": "2022/06/12 19:05:00",
+      "lastChangedAest": "2022/06/12 19:00:04",
+      "apcFlag": 16,
+      "intervention": 0,
+      "priceStatus": "FIRM",
+      "sourceKey": {
+        "DISPATCHINTERVAL": "20220612181",
+        "INTERVENTION": "0",
+        "REGIONID": "NSW1",
+        "RUNNO": "1",
+        "SETTLEMENTDATE": "2022/06/12 19:05:00"
+      },
+      "ropLiteral": "610.9"
+    },
+    {
+      "id": 27,
+      "sourceRowLine": 16988,
+      "intervalEndAest": "2022/06/12 19:10:00",
+      "lastChangedAest": "2022/06/12 19:05:03",
+      "apcFlag": 16,
+      "intervention": 0,
+      "priceStatus": "FIRM",
+      "sourceKey": {
+        "DISPATCHINTERVAL": "20220612182",
+        "INTERVENTION": "0",
+        "REGIONID": "NSW1",
+        "RUNNO": "1",
+        "SETTLEMENTDATE": "2022/06/12 19:10:00"
+      },
+      "ropLiteral": "1020.01"
+    },
+    {
+      "id": 28,
+      "sourceRowLine": 16993,
+      "intervalEndAest": "2022/06/12 19:15:00",
+      "lastChangedAest": "2022/06/12 19:10:04",
+      "apcFlag": 16,
+      "intervention": 0,
+      "priceStatus": "FIRM",
+      "sourceKey": {
+        "DISPATCHINTERVAL": "20220612183",
+        "INTERVENTION": "0",
+        "REGIONID": "NSW1",
+        "RUNNO": "1",
+        "SETTLEMENTDATE": "2022/06/12 19:15:00"
+      },
+      "ropLiteral": "1020.01"
+    },
+    {
+      "id": 29,
+      "sourceRowLine": 16998,
+      "intervalEndAest": "2022/06/12 19:20:00",
+      "lastChangedAest": "2022/06/12 19:15:03",
+      "apcFlag": 0,
+      "intervention": 0,
+      "priceStatus": "FIRM",
+      "sourceKey": {
+        "DISPATCHINTERVAL": "20220612184",
+        "INTERVENTION": "0",
+        "REGIONID": "NSW1",
+        "RUNNO": "1",
+        "SETTLEMENTDATE": "2022/06/12 19:20:00"
+      },
+      "ropLiteral": "1280.01"
+    },
+    {
+      "id": 30,
+      "sourceRowLine": 17003,
+      "intervalEndAest": "2022/06/12 19:25:00",
+      "lastChangedAest": "2022/06/12 19:20:03",
+      "apcFlag": 0,
+      "intervention": 0,
+      "priceStatus": "FIRM",
+      "sourceKey": {
+        "DISPATCHINTERVAL": "20220612185",
+        "INTERVENTION": "0",
+        "REGIONID": "NSW1",
+        "RUNNO": "1",
+        "SETTLEMENTDATE": "2022/06/12 19:25:00"
+      },
+      "ropLiteral": "1280.01"
+    },
+    {
+      "id": 31,
+      "sourceRowLine": 17008,
+      "intervalEndAest": "2022/06/12 19:30:00",
+      "lastChangedAest": "2022/06/12 19:25:02",
+      "apcFlag": 0,
+      "intervention": 0,
+      "priceStatus": "FIRM",
+      "sourceKey": {
+        "DISPATCHINTERVAL": "20220612186",
+        "INTERVENTION": "0",
+        "REGIONID": "NSW1",
+        "RUNNO": "1",
+        "SETTLEMENTDATE": "2022/06/12 19:30:00"
+      },
+      "ropLiteral": "1020.01"
+    },
+    {
+      "id": 32,
+      "sourceRowLine": 17013,
+      "intervalEndAest": "2022/06/12 19:35:00",
+      "lastChangedAest": "2022/06/12 19:30:04",
+      "apcFlag": 0,
+      "intervention": 0,
+      "priceStatus": "FIRM",
+      "sourceKey": {
+        "DISPATCHINTERVAL": "20220612187",
+        "INTERVENTION": "0",
+        "REGIONID": "NSW1",
+        "RUNNO": "1",
+        "SETTLEMENTDATE": "2022/06/12 19:35:00"
+      },
+      "ropLiteral": "1020.02"
+    },
+    {
+      "id": 33,
+      "sourceRowLine": 17018,
+      "intervalEndAest": "2022/06/12 19:40:00",
+      "lastChangedAest": "2022/06/12 19:35:03",
+      "apcFlag": 16,
+      "intervention": 0,
+      "priceStatus": "FIRM",
+      "sourceKey": {
+        "DISPATCHINTERVAL": "20220612188",
+        "INTERVENTION": "0",
+        "REGIONID": "NSW1",
+        "RUNNO": "1",
+        "SETTLEMENTDATE": "2022/06/12 19:40:00"
+      },
+      "ropLiteral": "1076.55376"
+    },
+    {
+      "id": 34,
+      "sourceRowLine": 17023,
+      "intervalEndAest": "2022/06/12 19:45:00",
+      "lastChangedAest": "2022/06/12 19:40:04",
+      "apcFlag": 16,
+      "intervention": 0,
+      "priceStatus": "FIRM",
+      "sourceKey": {
+        "DISPATCHINTERVAL": "20220612189",
+        "INTERVENTION": "0",
+        "REGIONID": "NSW1",
+        "RUNNO": "1",
+        "SETTLEMENTDATE": "2022/06/12 19:45:00"
+      },
+      "ropLiteral": "1020.01"
+    },
+    {
+      "id": 35,
+      "sourceRowLine": 17028,
+      "intervalEndAest": "2022/06/12 19:50:00",
+      "lastChangedAest": "2022/06/12 19:45:03",
+      "apcFlag": 16,
+      "intervention": 0,
+      "priceStatus": "FIRM",
+      "sourceKey": {
+        "DISPATCHINTERVAL": "20220612190",
+        "INTERVENTION": "0",
+        "REGIONID": "NSW1",
+        "RUNNO": "1",
+        "SETTLEMENTDATE": "2022/06/12 19:50:00"
+      },
+      "ropLiteral": "1020.01"
+    },
+    {
+      "id": 36,
+      "sourceRowLine": 17033,
+      "intervalEndAest": "2022/06/12 19:55:00",
+      "lastChangedAest": "2022/06/12 19:50:03",
+      "apcFlag": 16,
+      "intervention": 0,
+      "priceStatus": "FIRM",
+      "sourceKey": {
+        "DISPATCHINTERVAL": "20220612191",
+        "INTERVENTION": "0",
+        "REGIONID": "NSW1",
+        "RUNNO": "1",
+        "SETTLEMENTDATE": "2022/06/12 19:55:00"
+      },
+      "ropLiteral": "1020.01"
+    },
+    {
+      "id": 37,
+      "sourceRowLine": 17038,
+      "intervalEndAest": "2022/06/12 20:00:00",
+      "lastChangedAest": "2022/06/12 19:55:03",
+      "apcFlag": 16,
+      "intervention": 0,
+      "priceStatus": "FIRM",
+      "sourceKey": {
+        "DISPATCHINTERVAL": "20220612192",
+        "INTERVENTION": "0",
+        "REGIONID": "NSW1",
+        "RUNNO": "1",
+        "SETTLEMENTDATE": "2022/06/12 20:00:00"
+      },
+      "ropLiteral": "1020.01"
+    }
+  ],
+  "source": "Australian Energy Market Operator: NSW1 finalized five-minute DISPATCHPRICE RRP",
+  "sourceUrl": "https://nemweb.com.au/Data_Archive/Wholesale_Electricity/MMSDM/2022/MMSDM_2022_06/MMSDM_Historical_Data_SQLLoader/DATA/PUBLIC_DVD_DISPATCHPRICE_202206010000.zip",
+  "sourceRequestUrl": "https://nemweb.com.au/Data_Archive/Wholesale_Electricity/MMSDM/2022/MMSDM_2022_06/MMSDM_Historical_Data_SQLLoader/DATA/PUBLIC_DVD_DISPATCHPRICE_202206010000.zip",
+  "sourceSha256": "f62b069ca97c585b5e36d07570d02a545dfcde201f9e67ce40a38c3b8b345721",
+  "sourceMemberSha256": "2fa7dabacbb9e6218f3e175e034e195bbfb0f298a80f8830f30dd702367fa47e",
+  "sourceArchive": "PUBLIC_DVD_DISPATCHPRICE_202206010000.CSV",
+  "selectedWindowUTC": "2022-06-12 07:00:00 to 10:00:00 UTC",
+  "normalizedRowsSha256": "bbf30791b54e8b47a94e24b6f79a847b348e1c804179e03a12b326f674285c28",
+  "sampling": "All 37 ordinary-run, non-intervention observations in the fixed three-hour window; no interpolation or substituted ROP prices.",
+  "timestampSemantics": "dispatch-interval ending time (AEST, UTC+10); not first publication or quote-arrival time",
+  "transformation": "Original AUD/MWh RRP decimals encoded exactly at 1e5; AEST interval-ending coordinates converted to UTC. Finalized July 13 archive; original LASTCHANGED and price flags retained.",
+  "rights": {
+    "source": "AEMO",
+    "terms": "https://www.aemo.com.au/privacy-and-legal-notices/copyright-permissions",
+    "attribution": "Source: Australian Energy Market Operator, public DISPATCHPRICE NSW1 RRP, June 2022. Selected and encoded for a fictional historical cash-settlement challenge; no AEMO endorsement."
+  },
+  "limitations": [
+    "Finalized historical market-clearing prices, not executable quotes or reconstructed first-publication times.",
+    "Ten APCFLAG=16 records reflect loss-factor price scaling; the actual RRP settlement values are retained. No suspended/intervention or manual/cap/floor flagged rows are used.",
+    "MWh units represent a fictional cash-settled exposure, not stored physical electricity, dispatch rights, exchange futures or a financial broker contract.",
+    "Shared capacity, routing, reveal speed, fees and mandates are game assumptions. There is no order-book, physical delivery, storage or collateral/settlement-cycle model.",
+    "Only this positive-price window is admitted. General negative electricity price accounting is not supported."
+  ]
+}

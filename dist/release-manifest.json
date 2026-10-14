@@ -1,0 +1,237 @@
+{
+  "source": "IEX HIST venue quotes, author-published named A-share snapshots, AEMO five-minute clearing prices, JRC published FX price ticks and separately identified daily references",
+  "sources": [
+    [
+      "AEMO",
+      "https://www.aemo.com.au/privacy-and-legal-notices/copyright-permissions"
+    ],
+    [
+      "ECB",
+      "https://www.ecb.europa.eu/services/using-our-site/disclaimer/html/index.en.html"
+    ],
+    [
+      "IEX HIST",
+      "https://www.iex.io/legal/hist-data-terms"
+    ],
+    [
+      "INFINITECH/JRC published compilation",
+      "https://creativecommons.org/licenses/by/4.0/"
+    ],
+    [
+      "SSE EOD",
+      "https://www.ciis.com.hk/hongkong/en/uploadfiles/202601/09/2026010917263756201331.pdf"
+    ],
+    [
+      "USDA AMS",
+      "https://www.ams.usda.gov/about-ams/privacy"
+    ],
+    [
+      "Webb-site compilation",
+      "https://creativecommons.org/licenses/by/4.0/"
+    ],
+    [
+      "cooronxon AShareTickData compilation",
+      "https://opensource.org/license/mit"
+    ]
+  ],
+  "chartDependency": "Lightweight Charts 5.2.1, Apache-2.0",
+  "originalTerminal": true,
+  "upstreamTerminalIncluded": false,
+  "files": [
+    {
+      "path": "ORIGINAL-CODE-LICENSE.txt",
+      "bytes": 1227,
+      "sha256": "660260cfd7e76a8283acb27148211042aee7c1326500b840daa12a4e2220f460"
+    },
+    {
+      "path": "app.mjs",
+      "bytes": 24850,
+      "sha256": "926fc22e43274263b045a18bc977ab3bdf3d481a0ea3e5ad00d31e56a6bbbf35"
+    },
+    {
+      "path": "core/chapters.mjs",
+      "bytes": 925,
+      "sha256": "9d92d775ceaa02da7e196db41e23d5bb1b45cc2be6107cfec5ff538de0b5d22c"
+    },
+    {
+      "path": "core/clock.mjs",
+      "bytes": 1054,
+      "sha256": "c88eb668cbb1774777c899c189508145448017f9f95fd113c248265feae95b56"
+    },
+    {
+      "path": "core/engine.mjs",
+      "bytes": 12756,
+      "sha256": "71f8e2758f95cfd7d79beb9eaa27988fe98530333468e867f511e0ba816413a1"
+    },
+    {
+      "path": "core/feedback.mjs",
+      "bytes": 1756,
+      "sha256": "428bcc69d9655b4c6d60926c26601d36b49d76818b89a5b2b2524f643b5a0a77"
+    },
+    {
+      "path": "core/report.mjs",
+      "bytes": 16581,
+      "sha256": "2f69a8171270f214f7022d8824016a37f8dc1b0cdc6a0e6a869717952ef99fca"
+    },
+    {
+      "path": "core/review.mjs",
+      "bytes": 2103,
+      "sha256": "6a974a331a5b585e9c137ac9743672f80d566862287b7af83f607e4a68d5741d"
+    },
+    {
+      "path": "core/session.mjs",
+      "bytes": 6825,
+      "sha256": "622f5f1f498e3324bfe5ee507e90c10c9c384311a425f39d8cfc48b4bf7e85d5"
+    },
+    {
+      "path": "core/sizing.mjs",
+      "bytes": 1326,
+      "sha256": "f8b1f27c0fd79da75aed680632a7bbacf4326c8353b0700b801e9bc7b7eb732b"
+    },
+    {
+      "path": "core/tape.mjs",
+      "bytes": 7061,
+      "sha256": "ea87a72c831104763ecc158f9baf00fc7f75646c394adf461640520b85f10fcb"
+    },
+    {
+      "path": "core/wall-clock.mjs",
+      "bytes": 762,
+      "sha256": "837f5baa5060e14bd7b210385769e0d9837f279ff7da2dd16f52b7735514a111"
+    },
+    {
+      "path": "credits.html",
+      "bytes": 8415,
+      "sha256": "f954191650a60ec47904f6627fa5539a33ce336211c0bf101b0a50373c82d7bd"
+    },
+    {
+      "path": "daily.html",
+      "bytes": 5434,
+      "sha256": "3811180d8939d9b718ce5b0259f612f46d6dd4502b17d114ddad18b0db7b1feb"
+    },
+    {
+      "path": "daily.mjs",
+      "bytes": 16195,
+      "sha256": "e4106cea100521e6634ba054505edb5b87b804730248dcc92a3d6fe5269c44c2"
+    },
+    {
+      "path": "data/20181224-QQQ.json",
+      "bytes": 138973,
+      "sha256": "6fffc3f53b2cf630f3cd11fdb92e8da5d6e845f5f31e1d5b834b11a480e049e1"
+    },
+    {
+      "path": "data/20181224-SPY.json",
+      "bytes": 151010,
+      "sha256": "f6655f6e049a49285607969728c76b286d3673da5850a0d92634606c4bb621ea"
+    },
+    {
+      "path": "data/20200611-QQQ.json",
+      "bytes": 142942,
+      "sha256": "82d4f01369d98141466b7d6acb5b6c9c583c869b689790e14350c2a83f3b7c41"
+    },
+    {
+      "path": "data/20200611-SPY.json",
+      "bytes": 161836,
+      "sha256": "5ff862667b3c67337eefb1a3b5807de92d246dfb6aedb28825cf95365f3d4979"
+    },
+    {
+      "path": "data/ASHARE-MIT-NOTICE.txt",
+      "bytes": 1875,
+      "sha256": "47963bbe026515466f35ea05a625084c6a9a36c9748d46b12fafd11bb2643821"
+    },
+    {
+      "path": "data/JRC-CC-BY-NOTICE.txt",
+      "bytes": 739,
+      "sha256": "fb4d706b5e8efc04f7163de784e3dedb9327a3008aaa83b28b3cb34752a57e11"
+    },
+    {
+      "path": "data/QQQ.json",
+      "bytes": 143879,
+      "sha256": "7f925276c669b2414eb44ae669b22f1608d894672cb4086481454be28e0e12e2"
+    },
+    {
+      "path": "data/SPY.json",
+      "bytes": 165501,
+      "sha256": "11c33f6d26fc82fd76b3524531faf04622baa69615fdba29272ccd830ce3f4fc"
+    },
+    {
+      "path": "data/WEBB-NOTICE.txt",
+      "bytes": 1154,
+      "sha256": "b6398d159617f5fd2891b725eee14bb1e7fd558ec4b1ba999a5980556ed35c5e"
+    },
+    {
+      "path": "data/aemo-20220612-nsw.json",
+      "bytes": 24145,
+      "sha256": "aa1b7a6db17f00a355323d70759181f0260e28a4ec80c7326665d855f43280c7"
+    },
+    {
+      "path": "data/ashare-20260506-600900.json",
+      "bytes": 553158,
+      "sha256": "7513175ef56c2f8c848e7cb27396abde40eba8b71785eaef037363ef2bb0e87e"
+    },
+    {
+      "path": "data/chapters.json",
+      "bytes": 10330,
+      "sha256": "d7a9ea6ca7dfd1e4f34accc50a4e69661ec2df6bdb7c90660dcad8033e779d9e"
+    },
+    {
+      "path": "data/ecb-2015-chf.json",
+      "bytes": 2869,
+      "sha256": "cd16e7fe3688ee386b951f64100a80e3a6047d3971df0f227ca5785a72bcca03"
+    },
+    {
+      "path": "data/ecb-2016-gbp.json",
+      "bytes": 2996,
+      "sha256": "132a15877bd0fc79185bd1de884fa98a42a94ce40b89e7bcbf729d8e3d4dee34"
+    },
+    {
+      "path": "data/jrc-20220307-eurusd.json",
+      "bytes": 488259,
+      "sha256": "821a117d5cc3f413ac1d9b7bb263cd8995553857f2636278dc373d99332bf676"
+    },
+    {
+      "path": "data/reference-chapters.json",
+      "bytes": 6051,
+      "sha256": "87ff4259d41fb98d9d9ad8b51ca3a720b0a439c9e1daf173365d6d0c744ca373"
+    },
+    {
+      "path": "data/sse-2024-600519.json",
+      "bytes": 4592,
+      "sha256": "46f1ad5bde273cfa6824691081933b166ded4f9394d184edefeddb5b479529ad"
+    },
+    {
+      "path": "data/usda-2011-cotton.json",
+      "bytes": 6473,
+      "sha256": "316499b2220a8b015cdf21615438210338854cc2f6e6bb1e424ed4387f6338a5"
+    },
+    {
+      "path": "data/webb-2008-hsbc.json",
+      "bytes": 4764,
+      "sha256": "0bd570e9944225bc7508b73ee0bb8ca8472afc55b9915d4ee8d9a7b52534ebb1"
+    },
+    {
+      "path": "index.html",
+      "bytes": 6804,
+      "sha256": "641689ee53faac354a3d14eafef8a927e618e00a1260d9c234b7a5ee75877b28"
+    },
+    {
+      "path": "terminal.css",
+      "bytes": 6252,
+      "sha256": "248d3d311ff7b078e227ccc5df0cdc06234dbb9335261cb184b07611f5564ab1"
+    },
+    {
+      "path": "vendor/LICENSE",
+      "bytes": 11347,
+      "sha256": "70c9d5382506dd184465425c08a99ad9bd6d9ac1313c252968ba0b585e5ef823"
+    },
+    {
+      "path": "vendor/NOTICE",
+      "bytes": 101,
+      "sha256": "f76c6afab94884448f0426e30d6e9d555ca7247894cd3484e477d2f87513036e"
+    },
+    {
+      "path": "vendor/lightweight-charts.js",
+      "bytes": 197922,
+      "sha256": "e21cc5caa0226ef30bd8549c50b9ef926615f2a4ee6b4e486353477a55f598cf"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+import assert from 'node:assert/strict';
+import {makeAccount,submit,step,replay} from '../dist/core/engine.mjs';
+import {buildReport,explanation,metrics} from '../dist/core/report.mjs';
+const time=Date.parse('2020-01-01T00:00:00Z');
+const rows=[[time,10000,1,'1'],[time+1000,9000,2,'1'],[time+2000,11000,3,'1']];
+const rules={initialUnits:1000,initialEquity:20000,targetEquity:20000,targetUnits:0,feeBps:0,slippageBps:0,participationBps:10000};
+const a=makeAccount(rows,rules);const source={rows,source:'Test venue',sourceUrl:'https://example.invalid',normalizedRowsSha256:'fixture'};
+const chapter={title:'Fixture',date:'2020-01-01',brief:'Reduce the position.'};
+assert.throws(()=>buildReport(chapter,source,a),/Finish/);
+submit(a,{side:'sell',units:1000,type:'market'});while(!a.done)step(a,rows);
+assert.equal(metrics(a).maxDrawdown,1000);assert.equal(metrics(a).maxDrawdownPct,5);
+assert.equal(explanation(a),'Closing equity is $10.00 below the required floor.');
+const r=replay(rows,a.orders,{1:0},rules),text=buildReport(chapter,source,a,r);
+for(const expected of ['Equity $190.00 = cash $190.00 + marked position $0.00.','Revised minus original equity: $20.00.','The closing position is 1.000 BTC above the permitted limit.','Normalized rows SHA-256: fixture','2020-01-01T00:00:01.000Z | 2 | 1 | sell','No bid/ask'])assert.ok(text.includes(expected),expected);
+assert.ok(!buildReport(chapter,source,a).includes('REVISED RESULT'));
+console.log('PASS: report reconciliation, drawdown, failure explanation, provenance and revised/original separation.');

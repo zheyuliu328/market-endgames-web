@@ -1,0 +1,179 @@
+{
+  "source": "Shanghai Stock Exchange end-of-day stock statistics: 600519 closing prices",
+  "sourceUrl": "https://www.sse.com.cn/assortment/stock/list/info/company/index.shtml?COMPANY_CODE=600519",
+  "sourceSha256": "5873c62987bb4cc35b6612e2957de4c629f2ada1be053afa0b6d96e5369466c0",
+  "marketDataKind": "reference",
+  "frequency": "daily",
+  "timestampSemantics": "observation-date coordinate; not publication or quote-arrival time",
+  "schema": [
+    "dateCoordinateMs",
+    "referencePriceTicks",
+    "normalizedId",
+    "unusedVolume",
+    "observationDate",
+    "originalReferenceDecimal"
+  ],
+  "rows": [
+    [
+      1727654400000,
+      174800,
+      1,
+      null,
+      "2024-09-30",
+      "1748"
+    ],
+    [
+      1728345600000,
+      172300,
+      2,
+      null,
+      "2024-10-08",
+      "1723"
+    ],
+    [
+      1728432000000,
+      159515,
+      3,
+      null,
+      "2024-10-09",
+      "1595.15"
+    ],
+    [
+      1728518400000,
+      164000,
+      4,
+      null,
+      "2024-10-10",
+      "1640"
+    ],
+    [
+      1728604800000,
+      160499,
+      5,
+      null,
+      "2024-10-11",
+      "1604.99"
+    ],
+    [
+      1728864000000,
+      160199,
+      6,
+      null,
+      "2024-10-14",
+      "1601.99"
+    ],
+    [
+      1728950400000,
+      155425,
+      7,
+      null,
+      "2024-10-15",
+      "1554.25"
+    ]
+  ],
+  "instrument": {
+    "symbol": "600519.SSE",
+    "base": "600519 shares",
+    "quote": "CNY",
+    "name": "Kweichow Moutai",
+    "venue": "SSE EOD",
+    "priceScale": 100,
+    "quantityScale": 1,
+    "cashScale": 100
+  },
+  "rights": {
+    "source": "SSE EOD",
+    "terms": "https://www.ciis.com.hk/hongkong/en/uploadfiles/202601/09/2026010917263756201331.pdf",
+    "attribution": "Source: Shanghai Stock Exchange. Historical end-of-day closing information; no intraday feed or endorsement. Selected and encoded for a fictional dated challenge."
+  },
+  "transformation": "Original CNY closing price per share; exact 1e2 scale. Source SHA-256 covers an ordered manifest of original daily JSON hashes.",
+  "sampling": "One actual source value per observation date; missing dates remain absent. No intervening prices, bid/ask quotes or trade volume are reconstructed.",
+  "limitations": [
+    "Hypothetical next-observation closing-price settlement, not guaranteed exchange execution.",
+    "Daily OHLC cannot reconstruct auction queues or liquidity at price limits.",
+    "100-share order lots and one-observation resale lag are modeled; inherited shares are already eligible for sale.",
+    "Dividends, corporate actions, commissions, stamp duty and intraday trading are not modeled."
+  ],
+  "normalizedRowsSha256": "0255da6417da26aca580321a1177d68708a26ea92018683eed56299e05c9583e",
+  "sourceRecords": [
+    {
+      "date": "2024-09-30",
+      "sha256": "908ec55860859dab9d6322bcd096de3b7a211519be5888c8ec56c780ab49b174"
+    },
+    {
+      "date": "2024-10-08",
+      "sha256": "88a4e98e1b9130cd08e24aeac2957fd2bd94670aa5ff3ec8cb5f1eddeb448e00"
+    },
+    {
+      "date": "2024-10-09",
+      "sha256": "d702eab54dc3f2cc0b6c04fd6e507aedf4d7addcd9fce0fc0a211bde52eba7b9"
+    },
+    {
+      "date": "2024-10-10",
+      "sha256": "d1e5fe37248fb15bb9c417a5063055537bf3581d26a4a7f15f7e340f9f1c51ee"
+    },
+    {
+      "date": "2024-10-11",
+      "sha256": "7abe9ec7b64efe45ffc4babf802afb1f26c57c51c2c0db39df558cf99cca4921"
+    },
+    {
+      "date": "2024-10-14",
+      "sha256": "e9e2e09e21e3fb51a5cb6851c1a261249d640dde69637cc24c5999b76c3e72a8"
+    },
+    {
+      "date": "2024-10-15",
+      "sha256": "d92f2ca38ab32f218409336d6ed9da170855d56146c4b7a1eaf0b2e2bb25b9c8"
+    }
+  ],
+  "sourceOHLC": [
+    {
+      "date": "2024-09-30",
+      "open": "1692",
+      "high": "1759.88",
+      "low": "1652.0",
+      "close": "1748"
+    },
+    {
+      "date": "2024-10-08",
+      "open": "1910",
+      "high": "1910.0",
+      "low": "1680.18",
+      "close": "1723"
+    },
+    {
+      "date": "2024-10-09",
+      "open": "1700",
+      "high": "1700.0",
+      "low": "1590.0",
+      "close": "1595.15"
+    },
+    {
+      "date": "2024-10-10",
+      "open": "1622.26",
+      "high": "1668.08",
+      "low": "1591.0",
+      "close": "1640"
+    },
+    {
+      "date": "2024-10-11",
+      "open": "1615.4",
+      "high": "1639.96",
+      "low": "1590.0",
+      "close": "1604.99"
+    },
+    {
+      "date": "2024-10-14",
+      "open": "1613",
+      "high": "1620.63",
+      "low": "1581.17",
+      "close": "1601.99"
+    },
+    {
+      "date": "2024-10-15",
+      "open": "1599",
+      "high": "1600.99",
+      "low": "1553.01",
+      "close": "1554.25"
+    }
+  ]
+}
