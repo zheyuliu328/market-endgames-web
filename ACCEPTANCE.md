@@ -114,3 +114,6 @@ The existing Sites address remains version7 because its desktop upload failed be
 ## Final picker-timing repair
 
 A public navigation check found stale60x/60-second briefing text after previewing the electricity chapter and returning to the completed12x/6-second A-share account. Account timing and previously audited financial results were unchanged. openBrief and Return/Escape restoration now recompute timing text for the restored selection. Two original synthetic actual-handler cases reproduce both failures on the prior code and pass on the repair, preserving original account JSON and selection. This UI-only patch requires fresh CI/public navigation acceptance; earlier full guest/Decimal evidence remains applicable to the unchanged engine/data.
+
+
+Final picker repair publication passed: deployed source c86b36eb7c89ee653eed9b887053b2aa7d6849d0, Actions38544988076 verify/deploy success. Anonymous app/manifest bytes match; all other previously verified static/core/data files are unchanged. Actual public AEMO-preview→ReturnAshare→reopen shows12x/6-second help correctly. The full guest numerical gate remains the separate unchanged-core evidence above. Local preview has been stopped.
